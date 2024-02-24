@@ -1,6 +1,7 @@
 * {
     font-family: "Roboto";
     margin: 0px;
+    text-decoration: none;
 }
 
 body {
@@ -14,7 +15,6 @@ links {
 }
 
 links a {
-    text-decoration: none;
     float: right;
     padding: 25px;
     text-align: center;
