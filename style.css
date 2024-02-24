@@ -8,24 +8,24 @@ body {
     color: green;
 }
 
-topnav {
+links {
     overflow: hidden;
     position: fixed;
 }
 
-topnav a {
+links a {
     text-decoration: none;
     float: right;
     padding: 25px;
     text-align: center;
 }
 
-.topnav a.active {
+.links a.active {
     background-color: green;
     color: black;
 }
 
-.topnav a:hover {
+.links a:hover {
     background-color: green;
     color: black;
     transition: 2s;
