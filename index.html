@@ -1,35 +1,62 @@
 <!DOCTYPE html>
-  <header>
-    
-    <title>The JM Foundation | Home</title>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="description" content="Olavian Coders">
-    <meta name="author" content="Amoodan">
-    <meta http-equiv="refresh" content="30">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="/Images/joshpog.png">
-    
-    <div class="heading">
-      <h1>The Joshua Miles Foundation</h1>
-    </div>
-    <div class="navbar">
-      <a class="active" href="#home">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="projects.html">Our Projects</a>
-      <a href="contact.html">Contact Us</a>     
-      <a href="joinus.html">Join Us</a>
-    </div>
-    <div class="socialmedia">
-      <li>
-      </li>
-    </div>
-  </header>
-  <body>
-    <p>We love Joshua Miles</p>
-  </body>
+<html lang="en-GB">
+    <head>
+        <title>The Joshua Miles Foundation | Home</title>
+
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link rel="icon" type="image/x-icon" href="">
+
+        <meta charset="UTF-8">
+        <meta name="author" content="The Joshua Miles Foundation">
+        <meta name="description" content="Homepage of the Joshua Miles Foundation website">
+        <meta name="keywords" content="Joshua Miles, Foundation">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#ff0000">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://the-joshua-miles-foundation.github.io">
+        <meta property="og:title" content="The Joshua Miles Foundation | Home">
+        <meta property="og:description" content="Welcome to the Joshua Miles Foundation">
+        <meta property="og:image" content="">
+        <meta property="og:image:height" content="256px">
+        <meta property="og:image:width" content="256px">
+        <meta property="og:sitename" content="JM Foundation">
+
+        <script src="./global/scripts.js" defer></script>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <script src="https://w.behold.so/widget.js" type="module"></script>
+        <script src="https://kit.fontawesome.com/5de12ac90d.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <nav class="topnav" id="toppy">
+            <a href="./home/" class="logo"><img src="./global/xs-placeholder.png"></a>
+
+            <div class="links">
+                <a href="./home" class="link">Home</a>
+                <a href="./about-us" class="link">About Us</a>
+                <a href="./our-projects/" class="link">Our Journey</a>
+                <a href="./join-us/" class="link">Our Work</a>
+                <a href="./contact-us/" class="link">Contact Us</a>
+                <a href="javascript:void(0);" class="icon" onclick="hamburgerify()"><i class="fa fa-bars"></i></a>
+            </div>
+        </nav>
+
+        <section class="banner">
+            <h1>Joshua Miles Foundation</h1>
+            <h3>omg its JOSHUA MILES!!111</h3>
+        </section>
+
+        <section class="info">
+            <h1>Who are we?</h1>
+            <p style="padding-bottom: 0;">Live, laugh, Joshua Miles</p>
+            <a href="./about-us/">Learn more..</a>
+            
+            <h1>Who is Mr Big Man Preziduck Joshua Miles?</h1>
+            <p style="padding-bottom: 0;">Hes a really cool guy</p>
+        </section>
+
+        <footer>
+            <p id="copyright">© JM Foundation, 2024. All rights reserved.</p>
+        </footer>
+    </body>
 </html>
