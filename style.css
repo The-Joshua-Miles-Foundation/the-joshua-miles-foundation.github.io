@@ -8,7 +8,7 @@ body {
     color: green;
 }
 
-.navbar a:hover {
+.topnav a:hover {
     background-color: green;
     color: black;
     transition: 2s;
