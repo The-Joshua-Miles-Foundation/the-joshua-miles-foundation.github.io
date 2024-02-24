@@ -9,23 +9,23 @@ body {
     color: green;
 }
 
-links {
+topnav {
     overflow: hidden;
     position: fixed;
 }
 
-links a {
+topnav a {
     float: right;
     padding: 25px;
     text-align: center;
 }
 
-.links a.active {
+.topnav a.active {
     background-color: green;
     color: black;
 }
 
-.links a:hover {
+.topnav a:hover {
     background-color: green;
     color: black;
     transition: 2s;
