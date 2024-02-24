@@ -18,15 +18,14 @@ topnav a {
     float: right;
     padding: 25px;
     text-align: center;
+    color: green;
 }
 
 .topnav a.active {
-    background-color: green;
-    color: black;
+    color: white;
 }
 
 .topnav a:hover {
-    background-color: green;
-    color: black;
+    color: white;
     transition: 2s;
 }
