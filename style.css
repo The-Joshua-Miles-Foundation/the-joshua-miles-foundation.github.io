@@ -13,12 +13,15 @@ topnav {
     position: fixed;
 }
 
-.topnav a.active {
-    background-color: green;
-    color: black;
+topnav a {
     text-decoration: none;
     float: left;
     padding: 25px;
+}
+
+.topnav a.active {
+    background-color: green;
+    color: black;
 }
 
 .topnav a:hover {
