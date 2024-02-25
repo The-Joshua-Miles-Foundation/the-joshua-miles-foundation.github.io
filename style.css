@@ -8,8 +8,9 @@ body {
     color: #66ff00;
 }
 
-h1 {
-    float: left;
+title {
+    float:left;
+    padding: 25px;
 }
 
 a {
