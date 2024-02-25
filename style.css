@@ -1,7 +1,6 @@
 * {
     font-family: "Roboto";
     margin: 0px;
-    text-decoration: none;
 }
 
 body {
@@ -11,6 +10,11 @@ body {
 
 h1 {
     float: left;
+}
+
+a {
+    color: #66ff00;
+    text-decoration: none;
 }
 
 topnav {
