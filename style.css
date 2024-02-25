@@ -22,7 +22,7 @@ topnav {
     position: fixed;
 }
 
-topnav a {
+.topnav a {
     float: right;
     padding: 25px;
     text-align: center;
