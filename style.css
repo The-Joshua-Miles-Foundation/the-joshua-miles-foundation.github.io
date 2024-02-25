@@ -21,11 +21,6 @@ a {
     text-decoration: none;
 }
 
-.topnav {
-    overflow: hidden;
-    position: fixed;
-}
-
 .topnav a {
     float: right;
     padding-top: 25px;
